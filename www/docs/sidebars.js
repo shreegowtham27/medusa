@@ -14,6 +14,11 @@ module.exports = {
     {
       type: "doc",
       id: "homepage",
+      label: "Overview",
+    },
+    {
+      type: "doc",
+      id: "introduction",
       label: "Introduction",
     },
     {
@@ -105,6 +110,30 @@ module.exports = {
           label: "Medusa Server",
           collapsed: true,
           items: [
+            {
+              type: "category",
+              label: 'Endpoints',
+              collapsed: true,
+              items: [
+                {
+                  type: "doc",
+                  id: "advanced/backend/endpoints/add-storefront",
+                  label: "Add Endpoint for Storefront"
+                },
+              ]
+            },
+            {
+              type: "category",
+              label: 'Services',
+              collapsed: true,
+              items: [
+                {
+                  type: "doc",
+                  id: "advanced/backend/services/create-service",
+                  label: "Create a Service"
+                },
+              ]
+            },
             {
               type: "doc",
               id: "tutorial/adding-custom-functionality",
